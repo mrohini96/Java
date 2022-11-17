@@ -1,4 +1,5 @@
 | col1 | col2 | col3 |
+| --- | ---| ---|
 | cloud operations | GCP_BENCHMARK_APIS_CHECK | passed 
 | cloud operations | GCP_BENCHMARK_APIS_CHECK | passed 
 | cloud operations | GCP_BENCHMARK_APIS_CHECK | passed 

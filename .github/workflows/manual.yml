@@ -29,5 +29,5 @@ jobs:
     - name: test-github-summary
       shell: bash
       run: |-     
-        echo "| A | B |" >> $GITHUB-STEP-SUMMARY
-        echo "| --- | --- |" >> $GITHUB-STEP-SUMMARY
+        echo "| A | B |" >> $GITHUB_STEP_SUMMARY
+        echo "| --- | --- |" >> $GITHUB_STEP_SUMMARY

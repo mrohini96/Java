@@ -30,4 +30,4 @@ jobs:
       shell: bash
       run: |-     
         echo "| A | B |" >> $GITHUB-STEP-SUMMARY
-        echo " | --- | --- |" >> $GITHUB-STEP-SUMMARY
+        echo "| --- | --- |" >> $GITHUB-STEP-SUMMARY

@@ -5,16 +5,8 @@ name: Manual workflow
 # Controls when the action will run. Workflow runs when manually triggered using the UI
 # or API.
 on:
-  workflow_dispatch:
-    # Inputs the workflow accepts.
-    inputs:
-      name:
-        # Friendly description to be shown in the UI instead of 'name'
-        description: 'Person to greet'
-        # Default value if no value is explicitly provided
-        default: 'World'
-        # Input has to be provided for the workflow to run
-        required: true
+  push: 
+    branches: patch-2
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -29,5 +21,5 @@ jobs:
     - name: test-github-summary
       shell: bash
       run: |-     
-        echo "| A | B |" >> $GITHUB-STEP-SUMMARY
-        echo "| --- | --- |" >> $GITHUB-STEP-SUMMARY
+        echo "| A | B |" >> $GITHUB_STEP_SUMMARY
+        echo "| --- | --- |" >> $GITHUB_STEP_SUMMARY

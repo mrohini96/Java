@@ -24,3 +24,4 @@ jobs:
       run: |-     
         echo "| A | B |" >> $GITHUB_STEP_SUMMARY
         echo "| --- | --- |" >> $GITHUB_STEP_SUMMARY
+        echo "| HeyA | HeyB |" >> $GITHUB_STEP_SUMMARY
